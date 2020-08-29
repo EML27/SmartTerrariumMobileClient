@@ -5,10 +5,13 @@ import android.os.Bundle
 import com.example.smartterrariummobileclient.R
 import com.example.smartterrariummobileclient.presentation.terrariumslist.TerrariumsListPresenter
 import com.example.smartterrariummobileclient.presentation.terrariumslist.TerrariumsListView
+import com.example.smartterrariummobileclient.ui.base.BaseActivity
 import moxy.MvpAppCompatActivity
 import moxy.presenter.InjectPresenter
 
-class TerrariumsListActivity : MvpAppCompatActivity(), TerrariumsListView {
+class TerrariumsListActivity : BaseActivity(), TerrariumsListView {
+
+    override val layoutResId = R.layout.activity_terrariums_list
 
     @InjectPresenter
     lateinit var presenter: TerrariumsListPresenter

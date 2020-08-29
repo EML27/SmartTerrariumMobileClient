@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SmartTerrariumMobileClient</string>
+
+    <string name="error_base">Произошла ошибка</string>
+    <string name="error_connection_failed">Нет подключения к интернету</string>
+    <string name="error_connection_timeout">Истекло время подключения к серверу. Пожалуйста, попробуйте еще раз.</string>
+    <string name="error_permission_denied">Необходимо дать приложению необходимые разрешения</string>
 </resources>

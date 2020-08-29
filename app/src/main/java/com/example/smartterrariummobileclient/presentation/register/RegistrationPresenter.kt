@@ -1,5 +1,6 @@
 package com.example.smartterrariummobileclient.presentation.register
 
+import com.example.smartterrariummobileclient.entities.LoginDto
 import moxy.InjectViewState
 import moxy.MvpPresenter
 
@@ -14,5 +15,7 @@ import moxy.MvpPresenter
  */
 @InjectViewState
 class RegistrationPresenter : MvpPresenter<RegistrationView>() {
+    fun onRegistrationButtonClicked(loginDto: LoginDto) {}
 
+    fun onLoginButtonClicked() {}
 }

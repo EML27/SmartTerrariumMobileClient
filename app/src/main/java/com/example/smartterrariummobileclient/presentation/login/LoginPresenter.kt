@@ -1,5 +1,6 @@
 package com.example.smartterrariummobileclient.presentation.login
 
+import com.example.smartterrariummobileclient.entities.LoginDto
 import moxy.InjectViewState
 import moxy.MvpPresenter
 
@@ -15,4 +16,7 @@ import moxy.MvpPresenter
 @InjectViewState
 class LoginPresenter : MvpPresenter<LoginView>() {
 
+    fun onLoginButtonPressed(loginDto: LoginDto) {}
+
+    fun onRegistrationButtonPressed() {}
 }
